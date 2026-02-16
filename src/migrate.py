@@ -1,7 +1,7 @@
 import pyodbc
 import os
 
-# פרטי התחברות - בשלב ה-CI זה יעבור למשתני סביבה (Secrets)
+# Database credentials - in CI/CD pipeline this will be moved to environment variables (Secrets)
 DB_CONFIG = {
     'server': 'localhost',
     'database': 'Manual Scripting',
